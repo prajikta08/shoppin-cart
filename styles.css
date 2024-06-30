@@ -54,11 +54,16 @@ main p{
   padding-top: 10px;
 }
 
-#dessert-card-container {
-  display: grid;
-  grid-row-start: 1;
-  grid-row-end: 3;
+#products-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
+}
+.card {
+  background-color: wheat;
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px 10px;
 }
