@@ -1,6 +1,64 @@
-.header{
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
   overflow: hidden;
-  background-color: black;
+  background-color: #100f0f;
+  padding: 20px 10px;
+  margin: 0;
+  height: 70px;
   display: grid;
+  grid-template-columns: 70% 30%;
+  box-shadow: 0 4px 9px -2px rgba(0, 0, 0, 0.2); 
+}
+header .logo{
+  margin: auto;
+  margin-left: 30px;
+  height: 70px;
+}
+header nav{
+  margin: auto;
+  margin-right: 30px;
+    
+}
+nav button{
+  background-color: #100f0f;
+  color: #e4e2dd;
+  height: 30px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  
+}
+.pro{
+  margin-right: 40px;
+}
 
+
+main{
+  background-color: #f1f1f1;
+  height: 1100px;
+}
+main h1{
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+main p{
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 70px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+}
+
+#dessert-card-container {
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
 }
