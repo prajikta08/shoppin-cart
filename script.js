@@ -10,31 +10,31 @@ const product = [
   {
     id: 2,
     name: "Tablet",
-    price: 199.99,
+    price: 299.99,
     img: "https://i.pinimg.com/564x/cc/42/b5/cc42b5131f56852d61025539d98b0a32.jpg"
   },
   {
     id: 3,
     name: "Camera",
-    price: 199.99,
+    price: 499.99,
     img: "https://i.pinimg.com/564x/e3/ea/4b/e3ea4bcebbd1c235ee1653b4125ffb37.jpg"
   },
   {
     id: 4,
     name: "Laptop",
-    price: 199.99,
+    price: 699.99,
     img: "https://i.pinimg.com/564x/f9/c4/a0/f9c4a0d0f56c7c43e0328efe5dcdfb56.jpg"
   },
   {
     id: 5,
     name: "Watch",
-    price: 199.99,
+    price: 99.99,
     img: "https://i.pinimg.com/564x/be/aa/96/beaa96c6853cd219e896611bfb8e7d03.jpg"
   },
   {
     id: 6,
     name: "iPhone",
-    price: 199.99,
+    price: 399.99,
     img: "https://i.pinimg.com/564x/08/35/89/083589d0441faa736a598e29156dd6ef.jpg"
   },
 ];
