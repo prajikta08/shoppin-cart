@@ -3,40 +3,49 @@ const productCards = document.getElementById("products-container");
 const product = [
   {
     id: 1,
-    name: Phone,
-    price: 199.99
+    name: "Phone",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/3a/d8/f5/3ad8f5cdce82caf9c4eb8923e89cd670.jpg"
   },
   {
     id: 2,
-    name: Tablet,
-    price: 199.99
+    name: "Tablet",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/cc/42/b5/cc42b5131f56852d61025539d98b0a32.jpg"
   },
   {
     id: 3,
-    name: Camera,
-    price: 199.99
+    name: "Camera",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/e3/ea/4b/e3ea4bcebbd1c235ee1653b4125ffb37.jpg"
   },
   {
     id: 4,
-    name: Desktop,
-    price: 199.99
+    name: "Laptop",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/f9/c4/a0/f9c4a0d0f56c7c43e0328efe5dcdfb56.jpg"
   },
   {
     id: 5,
-    name: Watch,
-    price: 199.99
+    name: "Watch",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/be/aa/96/beaa96c6853cd219e896611bfb8e7d03.jpg"
   },
   {
     id: 6,
-    name: iPhone,
-    price: 199.99
+    name: "iPhone",
+    price: 199.99,
+    img: "https://i.pinimg.com/564x/08/35/89/083589d0441faa736a598e29156dd6ef.jpg"
   },
 ];
 product.forEach(
-  ({name, id, price}) => {
+  ({img, name, id, price}) => {
     productCards.innerHTML += `
       <div class="card">
+        <img src=${img} class="image">
         <h2>${name}</h2>
+        <p>$${price}</p>
+        <button class="button">Add to cart</button>
 
       </div>
     `;

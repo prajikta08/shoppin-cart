@@ -38,7 +38,7 @@ nav button{
 
 main{
   background-color: #f1f1f1;
-  height: 1100px;
+  
 }
 main h1{
   font-size: 5rem;
@@ -55,15 +55,39 @@ main p{
 }
 
 #products-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   align-items: center;
+  padding: auto;
+  margin-top: 60px;
 }
 .card {
-  background-color: wheat;
-  padding: 15px;
+  height:600px;
+  width: 490px;
+  background-color: transparent;
+  padding: 1px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 20px 10px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 30px;
+  box-shadow: 0 4px 9px -2px rgba(0, 0, 0, 0.2); 
+}
+.image{
+  margin-top: 10px;
+  overflow: hidden;
+  height:470px;
+  width: 430px;
+}
+.button{
+  height: 40px;
+  width: 290px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  background-color: #494949;
+  font-size: 20px;
+  color: #e4e2dd;
+  border: white;
+  box-shadow: 0 4px 9px -2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
