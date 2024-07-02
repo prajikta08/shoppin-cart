@@ -42,7 +42,7 @@ main{
 }
 main h1{
   
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   padding-top: 50px;
   font-family: "Poppins", sans-serif;
@@ -65,7 +65,7 @@ main p{
 }
 .card {
   height:600px;
-  width: 490px;
+  width: 450px;
   background-color: transparent;
   padding: 1px;
   text-align: center;
@@ -80,7 +80,7 @@ main p{
   margin-top: 10px;
   overflow: hidden;
   height:470px;
-  width: 430px;
+  width: 420px;
 }
 .button{
   height: 40px;

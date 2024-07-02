@@ -45,9 +45,36 @@ product.forEach(
         <img src=${img} class="image">
         <h2>${name}</h2>
         <p>$${price}</p>
-        <button class="button">Add to cart</button>
+        <button class="button js-add-to-cart" data-product-id="${id}">Add to cart</button>
 
       </div>
     `;
   }
 );
+
+//making add to cart button interactive
+
+document.querySelectorAll('.js-add-to-cart').forEach((button) =>{
+  button.addEventListener('click', () => {
+    const productId = button.dataset.productId;
+
+    let matchingItem;
+
+    cart.forEach((item) => {
+      if (productId === item.productId) {
+        matchingItem = item;
+      }
+    })
+    if (matchingItem) {
+      matchingItem.quatity += 1;
+      } else {
+        cart.push({
+          productId: productId,
+          quatity: 1
+        });
+      }
+
+    
+    console.log(cart)
+  });
+});

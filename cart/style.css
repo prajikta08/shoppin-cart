@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  overflow: hidden;
+  background-color: #100f0f;
+  padding: 20px 10px;
+  margin: 0;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  box-shadow: 0 4px 9px -2px rgba(0, 0, 0, 0.2); 
+}
+header .logo{
+  margin: auto;
+  margin-left: 30px;
+  height: 70px;
+}
+main{
+  background-color: #f1f1f1;
+  
+}
+main h1{
+  
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+main p{
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  color:#494949;
+}
+.section{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.your-orders{
+  background-color: antiquewhite;
+}
+.payment{
+  background-color: rgb(146, 126, 100);
+}
